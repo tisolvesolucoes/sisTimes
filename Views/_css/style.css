@@ -1,0 +1,500 @@
+/* CSS Document 
++----------------------------------------------------------------+
+:: Teste Freead Comunicação
+:: Autor: Renato de Macedo
+:: Data: 13/08/2014
++----------------------------------------------------------------+
+*/
+
+/*
++----------------------------------------------------------------+
+:: GERAL
++----------------------------------------------------------------+
+*/
+
+html, body, ul{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:#0d2b37;
+	font-family: 'Alef', sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: #ef8e1c;
+}
+
+h2{
+	font-size: 24px;
+	line-height: 24px;
+	color: #ef8e1c;
+	border-bottom: 1px solid #0d2b37;
+	display: block;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+p{
+	color: #fffffe;
+	font-family: tahoma, arial;
+	font-size: 16px;
+}
+
+p a{
+	color: #ef8e1c;
+}
+
+
+/*
++----------------------------------------------------------------+
+:: ESTRUTURA
++----------------------------------------------------------------+
+*/
+
+.container{
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 192px;
+	padding-top: 20px;
+	border-top: 10px solid #ef8e1c;
+}
+
+.logo{
+	text-align: center;
+	width: 320px;
+}
+
+
+/*
++----------------------------------------------------------------+
+:: MENU
++----------------------------------------------------------------+
+*/
+
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li{
+	display: block;
+}
+
+.menu li.link{
+	width:150px;
+	height: 82px;
+	background-color: #072531;	
+	margin-top:40px;
+}
+
+.menu li.link a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ef8e1c;
+	font-size: 22px;
+	line-height: 84px;
+	display: block;
+	width:100%;
+	height:84px;
+	text-align: center;
+}
+
+.menu li.link a.var{
+	width:130px;
+	height:42px;
+	padding: 20px 10px;	
+}
+
+.menu li.link a:hover{
+	background-color: #ef8e1c;
+	color:#072531;
+}
+
+.menu li.right{
+	margin-left: 20px;
+}
+
+.menu li.left{
+	margin-right: 20px;
+}
+
+.menu li.logo{
+	margin-top: -10px;
+}
+
+
+/*
++----------------------------------------------------------------+
+:: CONTEÚDO HOME
++----------------------------------------------------------------+
+*/
+
+.txtTop{
+	height: 100px;
+	font-size: 44px;
+	line-height: 44px;
+	color: #ef8e1c;
+	padding: 20px 0;
+	float: left;
+}
+
+.txtTop span{
+	font-style: italic;
+	font-size: 22px; 
+}
+
+
+.banner{
+	width: 100%;
+	height: 404px;
+	float: left;
+}
+
+.banner ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.column{
+	width: 490px;
+}
+
+.column.right{
+	float: right;
+	margin-left: 20px;
+}
+
+.column.left{
+	float: left;
+}
+
+a.linkHome{
+	color: #ef8e1c;
+	font-size: 22px;
+	padding: 10px;
+	width: 160px;
+	display: block;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	background: url(../../_img/icons/icon-arrow.png) 150px center no-repeat #072531;
+}
+
+.line{
+	width: 100px;
+	margin: 10px 0 0 0;
+	float: left;
+}
+
+.lineFull{
+	float:left;
+	width:100%;
+}
+
+.iconHome{
+	float:left;
+	margin: 10px 20px 0 20px;
+}
+
+.listStyle{
+	float: left;
+	width: 100%;
+	color: #fff;
+	list-style: none;
+	margin: 20px 0 0 0;
+}
+
+.listStyle li{
+	line-height: 20px;
+	background: url(../../_img/icons/icon-list.png) left center no-repeat; 
+	padding-left: 25px;
+}
+
+
+.formHome .text{
+	width:300px;
+	height: 40px;
+}
+
+.formHome .textarea{
+	width: 490px;
+	height: 164px;
+}
+
+.formHome select{
+	width: 300px;
+	height: 40px;
+	color: #fff;
+}
+
+.formHome .text, .formHome .textarea, .formHome select{
+	margin: 0 0 5px 0;
+	background-color: #fff;
+	border: 0;
+	padding: 0 0 0 10px;
+	color: #0d2b37;
+	font-family: tahoma, arial;
+	font-size: 16px;
+}
+
+.button{
+	margin: 23px 20px 0 0;
+	color: #0d2b37;
+	border: 0;
+	font-family: 'Alef', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	width: 350px;
+	height: 40px;
+	line-height: 36px;
+	text-align: left;
+	background: #ef8e1c;
+	text-align: center;
+	float: right;
+}
+
+.buttonFiltrar{
+	margin: 23px 20px 0 0;
+	color: #ef8e1c;
+	border: 0;
+	font-family: 'Alef', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	width: 350px;
+	height: 40px;
+	line-height: 36px;
+	text-align: left;
+	background: #0d2b37;
+	text-align: center;
+	float: right;
+}
+
+.barForm{
+	background-color:#ef8e1c;
+	width:970px;
+	min-height: 150px;
+	padding: 15px;
+	margin: 30px 0;
+	float: left;
+}
+
+.barForm h2{
+	color: #0d2b37;
+	margin-top: 0;
+}
+
+.colF{
+	float: left;
+	width: auto;
+	margin:0 20px 5px 0;
+}
+
+.colF label{
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	color: #0d2b37;
+}
+
+.tableCad{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: arial;
+}
+
+.tableCad tr.title{
+	text-align: center;
+	background-color: #ef8e1c;
+	
+}
+
+.tableCad tr.title td{
+	color: #072531;
+	font-weight: bold;
+}	
+
+.tableCad tr.color{
+	background: #1d4150;
+}
+
+.tableCad tr td{
+	border: 1px solid #ef8e1c;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tableCad tr td input, .tableCad tr td select{
+	padding: 5px;
+	color: #072531;
+	border: 0;
+}
+
+.nomeTime{
+	text-align: left!important;
+}
+
+.min{
+	width: 145px!important;
+}
+
+.barCad{
+	background: #072531;
+}
+
+.barCad h2, .barCad label{
+	color: #ef8e1c;
+}
+
+.barCad h2{
+	border-color: #ef8e1c;
+}
+
+.icoEdit, .icoDel, .icoSave, .icoCancel {
+	width: 25px;
+	height: 25px;
+	display: block;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+.icoEdit{
+	background: url(../_img/edit_pencil.png) center no-repeat;
+}
+
+.icoDel{
+	background: url(../_img/garbage_trash.png) center no-repeat;
+}
+
+.icons{
+	width: 80px;
+}
+
+.icoSave{
+	background: url(../_img/save.png) center no-repeat;
+}
+
+.icoCancel {
+	background: url(../_img/cancel.png) center no-repeat;
+}
+
+.banner01, .banner02{
+	width: 100%;
+	height: 150px;
+	margin: -20px 0 0 0;
+}
+
+.banner01{
+	background: url(../_img/banner01.jpg) center top repeat-x;
+}
+
+/*
++----------------------------------------------------------------+
+:: FOOTER
++----------------------------------------------------------------+
+*/
+
+.footer{
+	width: 100%;
+	height: 285px;
+	padding-top: 44px;
+	background-color: #072531;
+	margin-top: 50px;
+	float: left;
+}
+
+.footer .col1, .footer .col2{
+	float: left;
+}
+
+.footer .col1{
+	width: 206px;
+	margin-right: 146px;
+}
+
+.footer .col2{
+	width: 220px;
+}
+
+.footer .col3{
+	float: right;
+	width: 320px;
+	text-align: right;
+	color: #fff;
+}
+
+.footer .cred{
+	color: #fff;
+	font-family: tahoma;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 120px;
+	text-align: right;
+	float: right;
+}
+
+.footer ul{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.footer ul li a{
+	font-size: 22px;
+	color: #1a4353;
+	text-decoration: none;
+}
+
+.footer ul li.title a, .footer .title{
+	color: #01bc8a;
+	font-size: 22px;
+}
+
+.footer .address{
+	color: #1a4353;
+	margin-top: 0;
+}
+
+
+.footer .social{
+	float:left;
+}
+
+.footer .social a{
+	width: 37px;
+	height: 37px;
+	display: block;
+	float:left;
+}
+
+.footer .social{
+	float: left;
+	width: 295px;
+	margin-left: 5px;
+}
+
+.footer .social a{
+	margin-right: 5px;
+}
+
+.footer .social .title{
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+
+
